@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: my_bronze
+    database: workspace
+    schema: bronze
+    tables:
+      - name: sales_raw
+      - name: products_raw
